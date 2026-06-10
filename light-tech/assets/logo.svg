@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800;900&amp;family=Space+Grotesk:wght@700&amp;display=swap');
+      .logo-pandao {
+        font-family: 'Space Grotesk', 'Outfit', sans-serif;
+        font-weight: 700;
+        fill: #E31E24;
+        font-size: 42px;
+        letter-spacing: -0.5px;
+      }
+      .logo-logistics {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        fill: #1F2245; /* Темно-синий цвет для светлой темы */
+        font-size: 10px;
+        letter-spacing: 5px;
+      }
+    </style>
+  </defs>
+  <g transform="translate(10, 10)">
+    <!-- Иконка в виде стилизованного пути или бамбука перед текстом -->
+    <path d="M 10,15 L 25,5 L 25,20 Z" fill="#E31E24" opacity="0.9"/>
+    <path d="M 20,25 L 35,15 L 35,30 Z" fill="#E31E24" opacity="0.6"/>
+    
+    <!-- Текст PanDao (буква P стилизована) -->
+    <text x="35" y="36" class="logo-pandao">PanDao</text>
+    
+    <!-- Текст LOGISTICS COMPANY -->
+    <text x="38" y="52" class="logo-logistics">LOGISTICS COMPANY</text>
+  </g>
+</svg>
